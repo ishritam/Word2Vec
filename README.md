@@ -5,7 +5,10 @@
 
 > (base) C:\Users\Shritam\Desktop>cd FlaskW2Vec
 
+> (base) C:\Users\Shritam\Desktop\FlaskW2Vec>virtualenv venv
+
 > (base) C:\Users\Shritam\Desktop\FlaskW2Vec>cd venv
+
 
 > (base) C:\Users\Shritam\Desktop\flaskW2V\venv>Scripts\activate.bat
 
