@@ -9,6 +9,14 @@ app = Flask(__name__)
 def home():
     return "Hello, World!..."  # return a string
 
+@app.route('/about')
+def about():
+    return "I am Shritam Kumar Mund..."
+
+@app.route('/blog')
+def blog():
+    return "You can find all my blogs here...."
+
 @app.route('/welcome')
 def welcome():
     return render_template('welcome.html')  # render a template
