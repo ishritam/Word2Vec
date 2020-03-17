@@ -17,6 +17,10 @@ def about():
 def blog():
     return "You can find all my blogs here...."
 
+@app.route('/contact')
+def contact():
+    return "You can find all my contacts detail here...."
+
 @app.route('/welcome')
 def welcome():
     return render_template('welcome.html')  # render a template
